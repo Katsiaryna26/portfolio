@@ -1,1 +1,1 @@
-https://Katsiaryna26.github.io/portfolio/
+https://katsiaryna26.github.io/portfolio/
