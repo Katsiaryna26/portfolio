@@ -1,1 +1,2 @@
-https://github.com/Katsiaryna26/portfolio/blob/master/index.html
+
+https://Katsiaryna26.github.io/portfolio/
