@@ -1,1 +1,1 @@
-https://raw.github.com/Katsiaryna26/portfolio/main/path/to/index.html
+https://Katsiaryna26.github.io/portfolio/
