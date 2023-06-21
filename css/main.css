@@ -1,0 +1,182 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.container{
+    max-width: 1230px;
+    padding:0 30px 0 30px;
+    margin:0 auto;
+}
+.title-1{
+    font-weight: 600;
+    font-size: 34px;
+}
+.btn{
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.btn:hover, .btn:focus{
+    background-color:#3e3e3e;
+}
+.btn:active{
+    position: relative;
+    top: 1px;
+    border: #000000;;
+}
+/*header*/
+.header{
+    padding-top: 46px;
+    background-color: #F1F1F1;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    margin-bottom: 79px;
+}
+.logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    padding-right: 12px;
+    padding-top: 3px;
+    line-height: 1;
+}
+.logo::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: aqua;
+    border-radius: 50%;
+
+}
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link.active{
+    color: #606060;
+}
+.header-content{
+    margin-top: 44px;
+    max-width: 500px;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.img-hero{
+    max-width: 450px;
+} 
+.header-heding{
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.header-content p{
+    line-height: 2;
+}
+/* Services*/
+.services{
+    padding: 90px 0;
+}
+.services-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.service-card-img{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.js{
+    width: 60px;
+}
+.service-card p{
+    font-weight: 600;
+    text-align: center;
+
+}
+/*Portfolio*/
+.portfolio{
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+.portfolio-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project{
+    text-align: center;
+}
+.project + .project{
+    margin-top: 90px;
+}
+.project-img{
+    margin-bottom: 40px;
+}
+.project-title{
+    font-weight: 400;
+    font-size: 18px;
+}
+.project-title a{
+    color: black;
+    text-decoration: underline;
+}
+/*social*/
+.social-img{
+    width: 50px;
+}
+/*footer*/
+.contacs{
+    padding: 90px 0;
+    text-align: center;
+}
+.contacs-title{
+    margin-bottom: 40px;
+}
+.contacs-content{
+    margin: 0 auto 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+.contacs-content p+p{
+    margin-top: 1em;
+}
+.contacs-button{
+    margin-bottom: 80px;
+}
+.contacs-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+.contacs-footer{
+    color: #828282;
+}
