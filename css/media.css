@@ -60,9 +60,10 @@
 	.header-img {
 		text-align: center;
 	}
-	.services {
-		display:none;
-	}
+	.services{
+		display: none;
+
+		}
 }
 
 @media (max-width: 700px) {
